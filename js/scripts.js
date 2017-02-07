@@ -1,5 +1,5 @@
 $(function() {
-	var carouselList = $('#carousel ul');
+	var carouselList = $("#carousel ul");
 
 	function moveFirstSlide() {
 		var firstItem = carouselList.find("li:first");
@@ -12,5 +12,5 @@ $(function() {
 		carouselList.animate({'marginLeft':-470}, 500, moveFirstSlide);
 	}
 
-	carouselList.setInterval(changeSlide, 3000);
-})
+	setInterval(changeSlide, 3000);
+});
