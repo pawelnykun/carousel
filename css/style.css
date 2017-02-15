@@ -22,6 +22,7 @@ body {
 #carousel > ul.photo {
 	width: 2350px;
 	list-style: none;
+	position: absolute;
 	margin: 0;
 	padding: 0;
 }
